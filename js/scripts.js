@@ -1,4 +1,4 @@
-//Problem: Create web app that takes a number from user and returns a rnge of numbers from 0 to the choosen number.
+//Problem: Create web app that takes a number from user and returns a range of numbers from 0 to the choosen number.
 
 // Exceptions:
 // Numbers that contain 0, replace all digits with "Beep!"
@@ -48,13 +48,13 @@ $(document).ready(function() {
     if (wordsBeep === 0) {
       return $("#list").text("Beep!");
     } else {
-      return userInput
+      return $("#userInput").val();
     }
 
     if (wordsBoop === 1) {
       return $("#list").text("Boop!");
     } else {
-      return userInput
+      return $("#userInput").val();
     }
 
 /*

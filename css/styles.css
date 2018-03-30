@@ -1,3 +1,52 @@
-.container form {
+body {
+  background-color: teal;
+}
 
+.jumbotron.jumbotron-fluid.header {
+  background-image: url(../img/beepboop.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#form {
+  text-align: center;
+}
+
+.inputLabel {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffbf00;
+}
+
+#beepText {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: left;
+  color: #ffbf00
+}
+
+#boopText {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: right;
+  color: #ffbf00
+}
+
+.navbar-logo {
+  width: 200px;
+}
+
+.bg-company-warning {
+  background-color: #ffbf00;
+}
+
+#footerText {
+  color: teal;
 }
