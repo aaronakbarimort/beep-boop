@@ -1,7 +1,9 @@
+/* Body Styling */
 body {
   background-color: teal;
 }
 
+/* Header Styling */
 .jumbotron.jumbotron-fluid.header {
   background-image: url(../img/beepboop.gif);
   background-size: cover;
@@ -12,6 +14,7 @@ body {
   padding-bottom: 100px;
 }
 
+/* Form Styling */
 #form {
   text-align: center;
 }
@@ -39,6 +42,7 @@ body {
   color: #ffbf00
 }
 
+/* Footer Styling */
 .navbar-logo {
   width: 200px;
 }
