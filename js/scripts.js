@@ -10,28 +10,49 @@
 
 //user should be able to enter a new number and see new results over & over again
 
-var numberZero = "0";
-var wordBeep = numberZero.replace("0", "Beep!");
-console.log(wordBeep);
+/* Basic JS to convert numbers to words */
+//  var numberZero = "0";
+//  var wordBeep = numberZero.replace("0", "Beep!");
+//  console.log(wordBeep);
 
-var numberOne = "1";
-var wordBoop = numberOne.replace("1", "Boop!");
-console.log(wordBoop);
+//  var numberOne = "1";
+//  var wordBoop = numberOne.replace("1", "Boop!");
+//  console.log(wordBoop);
 
-var numberThree = "3";
-var wordImSorry = numberThree.replace("3", "I'm sorry, Dave. I'm afraid I can't do that.");
-console.log(wordImSorry);
+//  var numberThree = "3";
+//  var wordImSorry = numberThree.replace("3", "I'm sorry, Dave. I'm afraid I can't do that.");
+//  console.log(wordImSorry);
+/* End Basic JS */
+
+var numbersZero = [0,1,2,3,4,5,6,7,8,9];
+var wordsBeep = [];
+  numbersZero.forEach(function(numberZ) {
+    wordsBeep.push(numberZ = "Beep!")
+  }); console.log(wordsBeep);
+
+var numbersOne = [0,1,2,3,4,5,6,7,8,9];
+var wordsBoop = [];
+  numbersOne.forEach(function(numberO) {
+    wordsBoop.push(number0 = "Boop!")
+  }); console.log(wordsBoop);
+
 
 // User Interface Logic
 $(document).ready(function() {
   $("form#form").submit(function(event) {
     event.preventDefault();
 
-    var userInput = $("#userInput").val();
+//    var userInput = $("#userInput").val();
 
-    $("#list").text();
-    if (userInput === 0) {
-      return "Beep!"
+  //  $("#list").text();
+    if (wordsBeep === 0) {
+      return $("#list").text("Beep!");
+    } else {
+      return userInput
+    }
+
+    if (wordsBoop === 1) {
+      return $("#list").text("Boop!");
     } else {
       return userInput
     }
