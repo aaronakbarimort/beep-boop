@@ -4,11 +4,11 @@
 
 ## By Aaron Akbari-Mort
 
-[Link to project- Aaron](https://aaronakbarimort.github.io/track-suggester/)
+[Link to project](https://aaronakbarimort.github.io/beep-boop/)
 
 ## Description
 
-Website featuring a course Beep Boop form for Epicodus week 3 Independent Project.
+Website featuring a Beep Boop converter for Epicodus week 3 Independent Project.
 
 ## Specs
 
